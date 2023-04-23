@@ -25,30 +25,32 @@ void loginInterface()
 	// setw dùng để thay đổi độ rộng của bề rộng được lấy từ thư viện iomanip
 	setColor(0, 14);
 	cout << endl;
-	cout << setw(10) << "*" << "****************************************" << endl;
-	cout << setw(10) << "*" << setw(40) << "*" << endl;
-	cout << setw(10) << "*";
+	cout << setw(10) << "" << "_______________________________________" << endl;
+	cout << setw(10) << "|" << setw(40) << "|" << endl;
+	cout << setw(10) << "|" << setw(40) << "|" << endl;
+	cout << setw(10) << "|";
 
 	setColor(0, 9);
 	cout << setw(24) << "DANG NHAP";
 
 	setColor(0, 14);
-	cout << setw(16) << "*" << endl;
-	cout << setw(10) << "*" << setw(40) << "*" << endl;
-	cout << setw(10) << "*" << "****************************************" << endl;
+	cout << setw(16) << "|" << endl;
+	cout << setw(10) << "|" << setw(40) << "|" << endl;
+	cout << setw(10) << "|" << "_______________________________________|" << endl;
+	cout << endl;
 }
 
 void menuAdmin()
 {
 	setColor(0, 14);
 	cout << endl;
-	cout << setw(10) << "*" << "*************";
+	cout << setw(10) << "_" << "______________";
 
 	setColor(0, 9);
 	cout << " MENU ADMIN ";
 
 	setColor(0, 14);
-	cout << "***************" << endl;
+	cout << "______________" << endl << endl;
 
 	setColor(0, 13);
 	cout << endl << setw(18) << "1. " << "Them Nhan vien" << endl;
@@ -59,20 +61,20 @@ void menuAdmin()
 	cout << setw(18) << "6. " << "Dang xuat!" << endl;
 
 	setColor(0, 14);
-	cout << endl << setw(10) << "*" << "****************************************" << endl;
+	cout << endl << setw(10) << "_" << "________________________________________" << endl << endl;
 }
 
 void menuEmployee()
 {
 	setColor(0, 14);
 	cout << endl;
-	cout << setw(10) << "*" << "************";
+	cout << setw(10) << "_" << "____________";
 
 	setColor(0, 9);
 	cout << " MENU EMPLOYEE ";
 
 	setColor(0, 14);
-	cout << "*************" << endl;
+	cout << "______________" << endl << endl;
 
 	setColor(0, 13);
 	cout << endl << setw(18) << "1. " << "Xem thong tin tai khoan" << endl;
@@ -80,7 +82,7 @@ void menuEmployee()
 	cout << setw(18) << "3. " << "Dang xuat!" << endl;
 
 	setColor(0, 14);
-	cout << endl << setw(10) << "*" << "****************************************" << endl;
+	cout << endl << setw(10) << "_" << "________________________________________" << endl << endl;
 }
 
 string encodePassword()
